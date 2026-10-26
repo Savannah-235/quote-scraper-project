@@ -8,18 +8,16 @@ This project demonstrates the core phases of data engineering: automated web cra
 
 The pipeline processes data through a structured staging and transformation architecture: 
 
-Live Website (HTML)
-│
-▼  [ Scrapy Framework Spider ]
+Live Website (HTML) -  [ Scrapy Framework Spider ]
 my_quotes.csv (Raw Staging File)
-│
-▼  [ Python Data Cleansing & Metric Engineering ]
+
+[ Python Data Cleansing & Metric Engineering ]
 clean_csv.py (Transformation Script Engine)
-│
-▼  [ Native Python csv module ]
+
+[ Native Python csv module ]
 clean_quotes.csv ➔ Uploaded to Excel for the Web 
 
-### 🛠️ Data Engineering Phases
+### Data Engineering Phases
 
 ### Phase 1: Web Scraping & Ingestion
 
